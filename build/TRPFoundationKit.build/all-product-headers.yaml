@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/evrenyasar/Library/Developer/Xcode/DerivedData/TRPTestApp-gvhwooczxgmxxfguawbihchrehlg/Build/Products/Debug-iphonesimulator/TRPFoundationKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "TRPFoundationKit-Swift.h",
+          'external-contents': "/Users/evrenyasar/Library/Developer/Xcode/DerivedData/TRPTestApp-gvhwooczxgmxxfguawbihchrehlg/Build/Products/Debug-iphonesimulator/TRPFoundationKit.framework/Headers/TRPFoundationKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "TRPFoundationKit.h",
+          'external-contents': "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/TRPFoundationKit.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/evrenyasar/Library/Developer/Xcode/DerivedData/TRPTestApp-gvhwooczxgmxxfguawbihchrehlg/Build/Products/Debug-iphonesimulator/TRPFoundationKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/evrenyasar/Xcode/TRPFoundationKit/build/TRPFoundationKit.build/Debug-iphonesimulator/TRPFoundationKit.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

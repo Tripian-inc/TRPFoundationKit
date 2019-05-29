@@ -1,0 +1,10 @@
+framework module TRPFoundationKit {
+  umbrella header "TRPFoundationKit.h"
+
+  export *
+  module * { export * }
+}
+
+module TRPFoundationKit.__Swift {
+    exclude header "TRPFoundationKit-Swift.h"
+}
