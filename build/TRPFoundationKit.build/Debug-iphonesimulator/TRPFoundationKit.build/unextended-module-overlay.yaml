@@ -3,7 +3,7 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/evrenyasar/Library/Developer/Xcode/DerivedData/TRPTestApp-gvhwooczxgmxxfguawbihchrehlg/Build/Products/Debug-iphonesimulator/TRPFoundationKit.framework/Modules'
+    'name': '/Users/evrenyasar/Library/Developer/Xcode/DerivedData/TRPFoundationKit-eejjrxcjvvtymceogrivcgsugrrc/Build/Products/Debug-iphonesimulator/TRPFoundationKit.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
