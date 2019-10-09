@@ -26,13 +26,13 @@
 		B20F292621C248380041957B /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F292521C248380041957B /* Array.swift */; };
 		B21DBF35220D6EF00088829A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21DBF34220D6EF00088829A /* String.swift */; };
 		B2341D6423143955007EAF80 /* FoundationKitInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2341D6323143955007EAF80 /* FoundationKitInfo.swift */; };
-		B2D6ACB5234DF46500AED471 /* TRPFoundationKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D6ACB4234DF46500AED471 /* TRPFoundationKitTests.swift */; };
-		B2D6ACB7234DF46500AED471 /* TRPFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20A831E21C2134A00DE82B3 /* TRPFoundationKit.framework */; };
+		B2D6ACC4234E0C9D00AED471 /* TRPFoundationKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D6ACC3234E0C9D00AED471 /* TRPFoundationKitTests.swift */; };
+		B2D6ACC6234E0C9D00AED471 /* TRPFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20A831E21C2134A00DE82B3 /* TRPFoundationKit.framework */; };
 		B2DC28B12334C7EE009AB162 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DC28B02334C7EE009AB162 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B2D6ACB8234DF46500AED471 /* PBXContainerItemProxy */ = {
+		B2D6ACC7234E0C9D00AED471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B20A831521C2134A00DE82B3 /* Project object */;
 			proxyType = 1;
@@ -49,9 +49,11 @@
 		B20F292521C248380041957B /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		B21DBF34220D6EF00088829A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		B2341D6323143955007EAF80 /* FoundationKitInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationKitInfo.swift; sourceTree = "<group>"; };
-		B2D6ACB2234DF46500AED471 /* TRPFoundationKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRPFoundationKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D6ACB4234DF46500AED471 /* TRPFoundationKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPFoundationKitTests.swift; sourceTree = "<group>"; };
 		B2D6ACB6234DF46500AED471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D6ACC1234E0C9D00AED471 /* TRPFoundationKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRPFoundationKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D6ACC3234E0C9D00AED471 /* TRPFoundationKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPFoundationKitTests.swift; sourceTree = "<group>"; };
+		B2D6ACC5234E0C9D00AED471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2DC28B02334C7EE009AB162 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,11 +65,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2D6ACAF234DF46500AED471 /* Frameworks */ = {
+		B2D6ACBE234E0C9D00AED471 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D6ACB7234DF46500AED471 /* TRPFoundationKit.framework in Frameworks */,
+				B2D6ACC6234E0C9D00AED471 /* TRPFoundationKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +81,7 @@
 			children = (
 				B20A832021C2134A00DE82B3 /* TRPFoundationKit */,
 				B2D6ACB3234DF46500AED471 /* TRPFoundationKitTests */,
+				B2D6ACC2234E0C9D00AED471 /* TRPFoundationKitTests */,
 				B20A831F21C2134A00DE82B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				B20A831E21C2134A00DE82B3 /* TRPFoundationKit.framework */,
-				B2D6ACB2234DF46500AED471 /* TRPFoundationKitTests.xctest */,
+				B2D6ACC1234E0C9D00AED471 /* TRPFoundationKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +122,15 @@
 			children = (
 				B2D6ACB4234DF46500AED471 /* TRPFoundationKitTests.swift */,
 				B2D6ACB6234DF46500AED471 /* Info.plist */,
+			);
+			path = TRPFoundationKitTests;
+			sourceTree = "<group>";
+		};
+		B2D6ACC2234E0C9D00AED471 /* TRPFoundationKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2D6ACC3234E0C9D00AED471 /* TRPFoundationKitTests.swift */,
+				B2D6ACC5234E0C9D00AED471 /* Info.plist */,
 			);
 			path = TRPFoundationKitTests;
 			sourceTree = "<group>";
@@ -155,22 +167,22 @@
 			productReference = B20A831E21C2134A00DE82B3 /* TRPFoundationKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B2D6ACB1234DF46500AED471 /* TRPFoundationKitTests */ = {
+		B2D6ACC0234E0C9D00AED471 /* TRPFoundationKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2D6ACBC234DF46500AED471 /* Build configuration list for PBXNativeTarget "TRPFoundationKitTests" */;
+			buildConfigurationList = B2D6ACC9234E0C9D00AED471 /* Build configuration list for PBXNativeTarget "TRPFoundationKitTests" */;
 			buildPhases = (
-				B2D6ACAE234DF46500AED471 /* Sources */,
-				B2D6ACAF234DF46500AED471 /* Frameworks */,
-				B2D6ACB0234DF46500AED471 /* Resources */,
+				B2D6ACBD234E0C9D00AED471 /* Sources */,
+				B2D6ACBE234E0C9D00AED471 /* Frameworks */,
+				B2D6ACBF234E0C9D00AED471 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B2D6ACB9234DF46500AED471 /* PBXTargetDependency */,
+				B2D6ACC8234E0C9D00AED471 /* PBXTargetDependency */,
 			);
 			name = TRPFoundationKitTests;
 			productName = TRPFoundationKitTests;
-			productReference = B2D6ACB2234DF46500AED471 /* TRPFoundationKitTests.xctest */;
+			productReference = B2D6ACC1234E0C9D00AED471 /* TRPFoundationKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -194,7 +206,7 @@
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1020;
 					};
-					B2D6ACB1234DF46500AED471 = {
+					B2D6ACC0234E0C9D00AED471 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -213,7 +225,7 @@
 			targets = (
 				B20A831D21C2134A00DE82B3 /* TRPFoundationKit */,
 				B20A042C226DFDDA001DA3F6 /* UniversalTRPFoundationKit */,
-				B2D6ACB1234DF46500AED471 /* TRPFoundationKitTests */,
+				B2D6ACC0234E0C9D00AED471 /* TRPFoundationKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,7 +238,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2D6ACB0234DF46500AED471 /* Resources */ = {
+		B2D6ACBF234E0C9D00AED471 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,21 +280,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2D6ACAE234DF46500AED471 /* Sources */ = {
+		B2D6ACBD234E0C9D00AED471 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D6ACB5234DF46500AED471 /* TRPFoundationKitTests.swift in Sources */,
+				B2D6ACC4234E0C9D00AED471 /* TRPFoundationKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B2D6ACB9234DF46500AED471 /* PBXTargetDependency */ = {
+		B2D6ACC8234E0C9D00AED471 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B20A831D21C2134A00DE82B3 /* TRPFoundationKit */;
-			targetProxy = B2D6ACB8234DF46500AED471 /* PBXContainerItemProxy */;
+			targetProxy = B2D6ACC7234E0C9D00AED471 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -439,7 +451,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = LKU8459YDL;
+				DEVELOPMENT_TEAM = FSU73FY6GX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -454,6 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tripian.TRPFoundationKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,7 +481,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = LKU8459YDL;
+				DEVELOPMENT_TEAM = FSU73FY6GX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -483,16 +496,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tripian.TRPFoundationKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		B2D6ACBA234DF46500AED471 /* Debug */ = {
+		B2D6ACCA234E0C9D00AED471 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LKU8459YDL;
+				DEVELOPMENT_TEAM = FSU73FY6GX;
 				INFOPLIST_FILE = TRPFoundationKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -500,18 +514,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.evrenyasar.TRPFoundationKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tripian.TRPFoundationKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B2D6ACBB234DF46500AED471 /* Release */ = {
+		B2D6ACCB234E0C9D00AED471 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LKU8459YDL;
+				DEVELOPMENT_TEAM = FSU73FY6GX;
 				INFOPLIST_FILE = TRPFoundationKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -519,7 +533,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.evrenyasar.TRPFoundationKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tripian.TRPFoundationKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,11 +570,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2D6ACBC234DF46500AED471 /* Build configuration list for PBXNativeTarget "TRPFoundationKitTests" */ = {
+		B2D6ACC9234E0C9D00AED471 /* Build configuration list for PBXNativeTarget "TRPFoundationKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2D6ACBA234DF46500AED471 /* Debug */,
-				B2D6ACBB234DF46500AED471 /* Release */,
+				B2D6ACCA234E0C9D00AED471 /* Debug */,
+				B2D6ACCB234E0C9D00AED471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

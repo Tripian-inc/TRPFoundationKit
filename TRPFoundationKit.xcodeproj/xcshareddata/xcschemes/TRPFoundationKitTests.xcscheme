@@ -17,7 +17,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B2D6ACB1234DF46500AED471"
+               BlueprintIdentifier = "B2D6ACC0234E0C9D00AED471"
                BuildableName = "TRPFoundationKitTests.xctest"
                BlueprintName = "TRPFoundationKitTests"
                ReferencedContainer = "container:TRPFoundationKit.xcodeproj">
