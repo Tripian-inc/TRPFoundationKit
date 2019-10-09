@@ -26,7 +26,20 @@
 		B20F292621C248380041957B /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F292521C248380041957B /* Array.swift */; };
 		B21DBF35220D6EF00088829A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21DBF34220D6EF00088829A /* String.swift */; };
 		B2341D6423143955007EAF80 /* FoundationKitInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2341D6323143955007EAF80 /* FoundationKitInfo.swift */; };
+		B261975D234DCF670075E704 /* TRPFoundationKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B261975C234DCF670075E704 /* TRPFoundationKitTests.swift */; };
+		B261975F234DCF670075E704 /* TRPFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20A831E21C2134A00DE82B3 /* TRPFoundationKit.framework */; };
+		B2DC28B12334C7EE009AB162 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DC28B02334C7EE009AB162 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2619760234DCF670075E704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20A831521C2134A00DE82B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20A831D21C2134A00DE82B3;
+			remoteInfo = TRPFoundationKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B20A831E21C2134A00DE82B3 /* TRPFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TRPFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +49,10 @@
 		B20F292521C248380041957B /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		B21DBF34220D6EF00088829A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		B2341D6323143955007EAF80 /* FoundationKitInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationKitInfo.swift; sourceTree = "<group>"; };
+		B261975A234DCF670075E704 /* TRPFoundationKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRPFoundationKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B261975C234DCF670075E704 /* TRPFoundationKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPFoundationKitTests.swift; sourceTree = "<group>"; };
+		B261975E234DCF670075E704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DC28B02334C7EE009AB162 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,14 +63,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2619757234DCF670075E704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B261975F234DCF670075E704 /* TRPFoundationKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B20A831421C2134A00DE82B3 = {
 			isa = PBXGroup;
 			children = (
-				B2BFAA9522A55A0E00A68525 /* New Group */,
 				B20A832021C2134A00DE82B3 /* TRPFoundationKit */,
+				B261975B234DCF670075E704 /* TRPFoundationKitTests */,
 				B20A831F21C2134A00DE82B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				B20A831E21C2134A00DE82B3 /* TRPFoundationKit.framework */,
+				B261975A234DCF670075E704 /* TRPFoundationKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,15 +109,18 @@
 			children = (
 				B20F292521C248380041957B /* Array.swift */,
 				B21DBF34220D6EF00088829A /* String.swift */,
+				B2DC28B02334C7EE009AB162 /* UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		B2BFAA9522A55A0E00A68525 /* New Group */ = {
+		B261975B234DCF670075E704 /* TRPFoundationKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				B261975C234DCF670075E704 /* TRPFoundationKitTests.swift */,
+				B261975E234DCF670075E704 /* Info.plist */,
 			);
-			name = "New Group";
+			path = TRPFoundationKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +155,24 @@
 			productReference = B20A831E21C2134A00DE82B3 /* TRPFoundationKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B2619759234DCF670075E704 /* TRPFoundationKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2619764234DCF670075E704 /* Build configuration list for PBXNativeTarget "TRPFoundationKitTests" */;
+			buildPhases = (
+				B2619756234DCF670075E704 /* Sources */,
+				B2619757234DCF670075E704 /* Frameworks */,
+				B2619758234DCF670075E704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2619761234DCF670075E704 /* PBXTargetDependency */,
+			);
+			name = TRPFoundationKitTests;
+			productName = TRPFoundationKitTests;
+			productReference = B261975A234DCF670075E704 /* TRPFoundationKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -136,6 +183,7 @@
 				KnownAssetTags = (
 					New,
 				);
+				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Evren Yaşar";
 				TargetAttributes = {
@@ -145,6 +193,9 @@
 					B20A831D21C2134A00DE82B3 = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1020;
+					};
+					B2619759234DCF670075E704 = {
+						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
@@ -162,12 +213,20 @@
 			targets = (
 				B20A831D21C2134A00DE82B3 /* TRPFoundationKit */,
 				B20A042C226DFDDA001DA3F6 /* UniversalTRPFoundationKit */,
+				B2619759234DCF670075E704 /* TRPFoundationKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B20A831C21C2134A00DE82B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2619758234DCF670075E704 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,10 +264,27 @@
 				B2341D6423143955007EAF80 /* FoundationKitInfo.swift in Sources */,
 				B20A832A21C213B600DE82B3 /* TRPLocation.swift in Sources */,
 				B20F292621C248380041957B /* Array.swift in Sources */,
+				B2DC28B12334C7EE009AB162 /* UIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2619756234DCF670075E704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B261975D234DCF670075E704 /* TRPFoundationKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2619761234DCF670075E704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20A831D21C2134A00DE82B3 /* TRPFoundationKit */;
+			targetProxy = B2619760234DCF670075E704 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B20A042D226DFDDA001DA3F6 /* Debug */ = {
@@ -408,6 +484,44 @@
 			};
 			name = Release;
 		};
+		B2619762234DCF670075E704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKU8459YDL;
+				INFOPLIST_FILE = TRPFoundationKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.evrenyasar.TRPFoundationKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2619763234DCF670075E704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKU8459YDL;
+				INFOPLIST_FILE = TRPFoundationKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.evrenyasar.TRPFoundationKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -434,6 +548,15 @@
 			buildConfigurations = (
 				B20A832721C2134A00DE82B3 /* Debug */,
 				B20A832821C2134A00DE82B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2619764234DCF670075E704 /* Build configuration list for PBXNativeTarget "TRPFoundationKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2619762234DCF670075E704 /* Debug */,
+				B2619763234DCF670075E704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

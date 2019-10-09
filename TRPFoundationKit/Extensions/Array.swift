@@ -7,7 +7,7 @@
 //
 
 import Foundation
-public extension Array {
+extension Array {
     
     public func toString(_ separator:String? = nil) -> String {
         let arrayToString = self.map{"\($0)"}
