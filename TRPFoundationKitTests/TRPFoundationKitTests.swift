@@ -10,6 +10,10 @@ import XCTest
 @testable import TRPFoundationKit
 class TRPFoundationKitTests: XCTestCase {
 
+    func testEvren() {
+        
+    }
+    
     override func setUp() {
         print("SetUp")
     }
