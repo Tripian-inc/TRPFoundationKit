@@ -26,6 +26,9 @@
 		B20F292621C248380041957B /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F292521C248380041957B /* Array.swift */; };
 		B21DBF35220D6EF00088829A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21DBF34220D6EF00088829A /* String.swift */; };
 		B2341D6423143955007EAF80 /* FoundationKitInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2341D6323143955007EAF80 /* FoundationKitInfo.swift */; };
+		B2B500A823506D8D0006D406 /* StringExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B500A723506D8D0006D406 /* StringExtensionTest.swift */; };
+		B2B500AA23506F4A0006D406 /* ArrayExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B500A923506F4A0006D406 /* ArrayExtensionTest.swift */; };
+		B2B500B02350710A0006D406 /* FoundationKitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B500AF2350710A0006D406 /* FoundationKitTest.swift */; };
 		B2D6ACC4234E0C9D00AED471 /* TRPFoundationKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D6ACC3234E0C9D00AED471 /* TRPFoundationKitTests.swift */; };
 		B2D6ACC6234E0C9D00AED471 /* TRPFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20A831E21C2134A00DE82B3 /* TRPFoundationKit.framework */; };
 		B2DC28B12334C7EE009AB162 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DC28B02334C7EE009AB162 /* UIViewController.swift */; };
@@ -49,7 +52,9 @@
 		B20F292521C248380041957B /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		B21DBF34220D6EF00088829A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		B2341D6323143955007EAF80 /* FoundationKitInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationKitInfo.swift; sourceTree = "<group>"; };
-		B2D6ACB4234DF46500AED471 /* TRPFoundationKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPFoundationKitTests.swift; sourceTree = "<group>"; };
+		B2B500A723506D8D0006D406 /* StringExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTest.swift; sourceTree = "<group>"; };
+		B2B500A923506F4A0006D406 /* ArrayExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionTest.swift; sourceTree = "<group>"; };
+		B2B500AF2350710A0006D406 /* FoundationKitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationKitTest.swift; sourceTree = "<group>"; };
 		B2D6ACB6234DF46500AED471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D6ACC1234E0C9D00AED471 /* TRPFoundationKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRPFoundationKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D6ACC3234E0C9D00AED471 /* TRPFoundationKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPFoundationKitTests.swift; sourceTree = "<group>"; };
@@ -120,8 +125,10 @@
 		B2D6ACB3234DF46500AED471 /* TRPFoundationKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				B2D6ACB4234DF46500AED471 /* TRPFoundationKitTests.swift */,
 				B2D6ACB6234DF46500AED471 /* Info.plist */,
+				B2B500A723506D8D0006D406 /* StringExtensionTest.swift */,
+				B2B500A923506F4A0006D406 /* ArrayExtensionTest.swift */,
+				B2B500AF2350710A0006D406 /* FoundationKitTest.swift */,
 			);
 			path = TRPFoundationKitTests;
 			sourceTree = "<group>";
@@ -284,7 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B500A823506D8D0006D406 /* StringExtensionTest.swift in Sources */,
+				B2B500B02350710A0006D406 /* FoundationKitTest.swift in Sources */,
 				B2D6ACC4234E0C9D00AED471 /* TRPFoundationKitTests.swift in Sources */,
+				B2B500AA23506F4A0006D406 /* ArrayExtensionTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
