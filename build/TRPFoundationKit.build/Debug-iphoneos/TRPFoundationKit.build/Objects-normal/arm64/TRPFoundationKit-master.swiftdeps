@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
 options: "1b50b87fe323b873f8cd1e5c02df1096"
-build_time: [1570004728, 59478000]
+build_time: [1571746542, 990521000]
 inputs:
   "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/String.swift": [9223372036, 854775807]
   "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/FoundationKitInfo.swift": [9223372036, 854775807]

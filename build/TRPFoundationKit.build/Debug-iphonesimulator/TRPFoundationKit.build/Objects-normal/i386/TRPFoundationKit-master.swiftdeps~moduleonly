@@ -1,9 +1,9 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
 options: "a048374a647bfaa029288fe671db4a3a"
-build_time: [1570004735, 733141000]
+build_time: [1571746551, 69432000]
 inputs:
-  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/String.swift": [1549614750, 34432688]
-  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/FoundationKitInfo.swift": [1566835169, 401774523]
-  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/TRPLocation.swift": [1544674409, 912233114]
-  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/Array.swift": [1544687812, 816075563]
-  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/UIViewController.swift": [1568989775, 358927578]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/String.swift": [1571230787, 100301404]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/FoundationKitInfo.swift": [1570609062, 7831193]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/TRPLocation.swift": [1570781863, 557315092]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/Array.swift": [1570609078, 218787770]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/UIViewController.swift": [1570608993, 506976156]

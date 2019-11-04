@@ -18,4 +18,19 @@ extension String {
         return nil
     }
     
+    
+    public func toIntArray() -> [Int] {
+        let speratedString = self.components(separatedBy: ",")
+        var tempArray = [Int]()
+        
+        for value in speratedString {
+            if let converted = Int(value) {
+                tempArray.append(converted)
+            }
+        }
+        return tempArray
+    }
+    
+   
+    
 }
