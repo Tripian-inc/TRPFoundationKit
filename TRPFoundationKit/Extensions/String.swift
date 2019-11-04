@@ -18,7 +18,6 @@ extension String {
         return nil
     }
     
-    
     public func toIntArray() -> [Int] {
         let speratedString = self.components(separatedBy: ",")
         var tempArray = [Int]()
@@ -30,7 +29,5 @@ extension String {
         }
         return tempArray
     }
-    
-   
     
 }

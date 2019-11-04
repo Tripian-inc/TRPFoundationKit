@@ -21,6 +21,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		18386FDA23704F4A00008ED9 /* TRPApiKeyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18386FD923704F4A00008ED9 /* TRPApiKeyController.swift */; };
+		18386FDD23704F6200008ED9 /* TRPApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18386FDC23704F6200008ED9 /* TRPApiKeys.swift */; };
+		18386FE12370674900008ED9 /* TRPLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18386FE02370674900008ED9 /* TRPLogger.swift */; };
+		18386FE323706A2000008ED9 /* TRPFrameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18386FE223706A2000008ED9 /* TRPFrameworks.swift */; };
 		B20A832321C2134A00DE82B3 /* TRPFoundationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B20A832121C2134A00DE82B3 /* TRPFoundationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B20A832A21C213B600DE82B3 /* TRPLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20A832921C213B600DE82B3 /* TRPLocation.swift */; };
 		B20F292621C248380041957B /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F292521C248380041957B /* Array.swift */; };
@@ -45,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18386FD923704F4A00008ED9 /* TRPApiKeyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPApiKeyController.swift; sourceTree = "<group>"; };
+		18386FDC23704F6200008ED9 /* TRPApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPApiKeys.swift; sourceTree = "<group>"; };
+		18386FE02370674900008ED9 /* TRPLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPLogger.swift; sourceTree = "<group>"; };
+		18386FE223706A2000008ED9 /* TRPFrameworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRPFrameworks.swift; sourceTree = "<group>"; };
 		B20A831E21C2134A00DE82B3 /* TRPFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TRPFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20A832121C2134A00DE82B3 /* TRPFoundationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRPFoundationKit.h; sourceTree = "<group>"; };
 		B20A832221C2134A00DE82B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18386FDB23704F4F00008ED9 /* ApiKeys */ = {
+			isa = PBXGroup;
+			children = (
+				18386FD923704F4A00008ED9 /* TRPApiKeyController.swift */,
+				18386FDC23704F6200008ED9 /* TRPApiKeys.swift */,
+			);
+			path = ApiKeys;
+			sourceTree = "<group>";
+		};
 		B20A831421C2134A00DE82B3 = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +120,14 @@
 		B20A832021C2134A00DE82B3 /* TRPFoundationKit */ = {
 			isa = PBXGroup;
 			children = (
+				18386FDB23704F4F00008ED9 /* ApiKeys */,
 				B20A832B21C213C600DE82B3 /* Extensions */,
 				B20A832121C2134A00DE82B3 /* TRPFoundationKit.h */,
 				B20A832221C2134A00DE82B3 /* Info.plist */,
 				B20A832921C213B600DE82B3 /* TRPLocation.swift */,
 				B2341D6323143955007EAF80 /* FoundationKitInfo.swift */,
+				18386FE02370674900008ED9 /* TRPLogger.swift */,
+				18386FE223706A2000008ED9 /* TRPFrameworks.swift */,
 			);
 			path = TRPFoundationKit;
 			sourceTree = "<group>";
@@ -279,9 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18386FE12370674900008ED9 /* TRPLogger.swift in Sources */,
 				B21DBF35220D6EF00088829A /* String.swift in Sources */,
 				B2341D6423143955007EAF80 /* FoundationKitInfo.swift in Sources */,
+				18386FE323706A2000008ED9 /* TRPFrameworks.swift in Sources */,
+				18386FDD23704F6200008ED9 /* TRPApiKeys.swift in Sources */,
 				B20A832A21C213B600DE82B3 /* TRPLocation.swift in Sources */,
+				18386FDA23704F4A00008ED9 /* TRPApiKeyController.swift in Sources */,
 				B20F292621C248380041957B /* Array.swift in Sources */,
 				B2DC28B12334C7EE009AB162 /* UIViewController.swift in Sources */,
 			);
