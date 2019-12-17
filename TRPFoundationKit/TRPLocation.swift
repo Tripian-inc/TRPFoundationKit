@@ -20,6 +20,7 @@ import Foundation
     
     public func prnt() -> Void {
         print("Lat \(lat) Lon: \(lon)")
+        
     }
     
 }

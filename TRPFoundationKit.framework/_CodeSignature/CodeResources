@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TRPFoundationKit-Swift.h</key>
 		<data>
-		bnwX2SppjrluQ2pV076ceXWedKA=
+		mnPukUfhbEXD9bVoHG8XZaV7Oy4=
 		</data>
 		<key>Headers/TRPFoundationKit.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LD0ejO3NyPADTCeowQtsTeJ4YZA=
+		XwFugOvC/jjQVTZHPDCL5qVSQ4I=
 		</data>
 		<key>Modules/TRPFoundationKit.swiftmodule/arm.swiftdoc</key>
 		<data>
-		qRtXApo3d10eXDEqkN0qFvnXy0M=
+		2/36FITil26hiw4l+bNALSZEkV0=
 		</data>
 		<key>Modules/TRPFoundationKit.swiftmodule/arm.swiftmodule</key>
 		<data>
-		CE9MyRjyD8vVnfjOK2T9qTGMVrY=
+		DkzAxjw0mhJzcBo+eGFcbjRMEtY=
 		</data>
 		<key>Modules/TRPFoundationKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		pBXH/B11ft/5XYAUvTKRMw27qWI=
+		jSFE3Vxz1U6leoof0vJ7CxRT/n4=
 		</data>
 		<key>Modules/TRPFoundationKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		fs8eH915E3aE85Y06eiaxdePA8k=
+		Ip186GlRlRZyH7MNxkzi/ZMQVu4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,11 +43,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bnwX2SppjrluQ2pV076ceXWedKA=
+			mnPukUfhbEXD9bVoHG8XZaV7Oy4=
 			</data>
 			<key>hash2</key>
 			<data>
-			c45M+vlwOR9PX2TP4rRhP8R77ptRWNAibBBr4U/4lxE=
+			wI++koTaTjieQ0N3Ww6BE2fdTMUBiwa+pAA8KdkDhb8=
 			</data>
 		</dict>
 		<key>Headers/TRPFoundationKit.h</key>
@@ -65,44 +65,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qRtXApo3d10eXDEqkN0qFvnXy0M=
+			2/36FITil26hiw4l+bNALSZEkV0=
 			</data>
 			<key>hash2</key>
 			<data>
-			PmtJVCmSsNIlyiN/F74TPfYDjpgpg6L2gNgv5cAQqRw=
+			6Gf5iH5t7kHiJbgVHEfcRW/qmNRkU0AyIgBKrAGtgzI=
 			</data>
 		</dict>
 		<key>Modules/TRPFoundationKit.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CE9MyRjyD8vVnfjOK2T9qTGMVrY=
+			DkzAxjw0mhJzcBo+eGFcbjRMEtY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZlWPlSxvAg2rWeKpQL+vojck8/2B83xDBSE+TcoHhZA=
+			MlV5bSByXYdz3fvndeX4IZ/aN5lguOZwjC/4wMnfyCE=
 			</data>
 		</dict>
 		<key>Modules/TRPFoundationKit.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pBXH/B11ft/5XYAUvTKRMw27qWI=
+			jSFE3Vxz1U6leoof0vJ7CxRT/n4=
 			</data>
 			<key>hash2</key>
 			<data>
-			kuTSlZ3auys8pOvCGfQwadIomPw+r9Sss4ApVyLPfZc=
+			tWPaA5cu4Z/eL7AARe/QZiSxug9jVKVitpyg+rQNDZ0=
 			</data>
 		</dict>
 		<key>Modules/TRPFoundationKit.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fs8eH915E3aE85Y06eiaxdePA8k=
+			Ip186GlRlRZyH7MNxkzi/ZMQVu4=
 			</data>
 			<key>hash2</key>
 			<data>
-			8Qz4SNIH5iRNFSvBdZvcxmcyl8Ag1SQXFJDWwvMcIOc=
+			lSWFhIDEBL99hss9CZPi9xwRgyCCT6UX7vXAOI7rmjM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

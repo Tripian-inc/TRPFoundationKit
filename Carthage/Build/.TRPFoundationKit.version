@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "96310f0aa0344bca043c7976ccbe22812bb55376",
+  "iOS" : [
+    {
+      "name" : "TRPFoundationKit",
+      "hash" : "86130ac79774cc7c9685e33e2c20bb07679dc54667d013c42c4c874ba42767ff",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ]
+}

@@ -18,5 +18,11 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>TRPApiKey</key>
+	<string>1234</string>
+	<key>TRPGooglePlaceApi</key>
+	<string>3456</string>
+	<key>MGLMapboxAccessToken</key>
+	<string>5678</string>
 </dict>
 </plist>

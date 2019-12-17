@@ -1,9 +1,13 @@
-version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
-options: "abfc46f40479a26c2830808ccb04779c"
-build_time: [1571746551, 69523000]
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "f12ea47cfb8b6e209c2e78ec888363f0"
+build_time: [1575576015, 225864000]
 inputs:
-  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/String.swift": [1571230787, 100301404]
-  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/FoundationKitInfo.swift": [1570609062, 7831193]
-  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/TRPLocation.swift": [1570781863, 557315092]
-  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/Array.swift": [1570609078, 218787770]
-  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/UIViewController.swift": [1570608993, 506976156]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/TRPLogger.swift": [1573719959, 762257748]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/String.swift": [1573719959, 760873821]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/FoundationKitInfo.swift": [1573719959, 761390972]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/TRPFrameworks.swift": [1573719959, 761944660]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/ApiKeys/TRPApiKeys.swift": [1573719959, 760494342]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/TRPLocation.swift": [1573719959, 762106374]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/ApiKeys/TRPApiKeyController.swift": [1573719959, 760344819]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/Array.swift": [1573719959, 760707720]
+  "/Users/evrenyasar/Xcode/TRPFoundationKit/TRPFoundationKit/Extensions/UIViewController.swift": [1573719959, 761195561]
