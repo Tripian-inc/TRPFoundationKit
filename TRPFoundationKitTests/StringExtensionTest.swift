@@ -38,4 +38,31 @@ class StringExtensionTest: XCTestCase {
         XCTAssert(converted!.lat == 39,"Lat couldn't converted")
         XCTAssert(converted!.lon == 32,"Lon couldn't converted")
     }
+    
+    
+    
+    func testToArrayEmpty() {
+        let value = "asda"
+        XCTAssertEqual(value.toIntArray(), [])
+    }
+    
+    func testToArrayOneObject() {
+        let value = "1"
+        XCTAssertEqual(value.toIntArray(), [1])
+    }
+    
+    func testToArrayTwoObject() {
+        let value = "1,2"
+        XCTAssertEqual(value.toIntArray(), [1,2])
+    }
+    
+    func testToArrayTwoObjectWithBadValues() {
+        let value = "1-2"
+        XCTAssertEqual(value.toIntArray(), [])
+    }
+    
+    func testToArrayObjectWithCharAndNumber() {
+        let value = "1,2,ABC,3"
+        XCTAssertEqual(value.toIntArray(), [1,2,3])
+    }
 }
