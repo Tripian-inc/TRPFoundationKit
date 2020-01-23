@@ -8,12 +8,12 @@
   "tvOS" : [
 
   ],
-  "commitish" : "8765baca9ec7f1e752e55f769f47e7194bf3d3cc",
+  "commitish" : "1.4.0",
   "iOS" : [
     {
       "name" : "TRPFoundationKit",
-      "hash" : "f7f8c0e2e651ffefef66c6ce2739ac510b2df6cf1140cc6c5151179fcedc8392",
-      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+      "hash" : "b7b564e23c759bb304f64d15a1334731046064e412883cdf1e212b69bf8001c5",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
     }
   ]
 }

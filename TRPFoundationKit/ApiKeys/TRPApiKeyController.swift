@@ -27,10 +27,15 @@ public class TRPApiKeyController {
     }
     
     public static func getKey(_ framework: TRPApiKeys, bundle: Bundle = Bundle.main) -> String? {
-        
-        if let path = bundle.path(forResource: "Info", ofType: "plist"), let dict = NSDictionary(contentsOfFile: path) {
-            return dict[framework.rawValue] as? String
+        guard let path = bundle.path(forResource: "Info", ofType: "plist") else {
+            print("[Error] : PATH NİL")
+            return nil
         }
-        return nil
+        
+        guard let dict = NSDictionary(contentsOfFile: path) else {
+            print("[Error] : NSDictionary nil")
+            return nil
+        }
+        return dict[framework.rawValue] as? String
     }
 }

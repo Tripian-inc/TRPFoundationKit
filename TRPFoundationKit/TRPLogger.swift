@@ -38,12 +38,27 @@ public class TRPLogger {
         showInPanel(file:file, line:line, function:function, message: message, level: TRPLogger.Level.warning)
     }
     
-    private func showInPanel(file: String = #file, line: Int = #line, function: String = #function, message: String, level: Level) {
+    public func deInitialize(file: String = #file, line: Int = #line, function: String = #function) {
+        showInPanel(file:file,
+                    line:line,
+                    function:function,
+                    message: nil,
+                    level: TRPLogger.Level.debug)
+    }
+    
+    private func showInPanel(file: String = #file,
+                             line: Int = #line,
+                             function: String = #function,
+                             message: String?,
+                             level: Level) {
         var text = ""
         if let pref = prefix {
             text += "[\(pref)]"
         }
-        text += "[\(getFileName(file)).\(function)] \(level.rawValue): \(message)"
+        text += "[\(getFileName(file)).\(function)] \(level.rawValue)"
+        if let msg = message {
+            text += ": \(msg)"
+        }
         print(text)
     }
     

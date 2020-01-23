@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 s.name = "TRPFoundationKit"
-s.version = "1.4.0"
+s.version = "1.5.0"
 s.summary = "Tripian iOS Framework"
 s.homepage = "https://www.tripian.com"
 s.license =  s.license = { :type => "BSD" }
 s.author = { "Tripian" => "necati@tripian.com" }
 s.source       = {
-    :http => "https://github.com/Tripian-inc/iOS-podspecs/tree/master/CompiledFrameworks/TRPFoundationKit/1.4.0/TRPFoundationKit.zip",
+    :http => "https://tripian-mobile-sdk.s3.us-east-2.amazonaws.com/trpfoundationkit/1.5.0/TRPFoundationKit.zip",
     :flatten => true
   }
 s.module_name = "TRPFoundationKit"
