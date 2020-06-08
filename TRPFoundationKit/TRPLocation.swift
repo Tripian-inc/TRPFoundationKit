@@ -20,7 +20,10 @@ import Foundation
     
     public func prnt() -> Void {
         print("Lat \(lat) Lon: \(lon)")
-        
+    }
+    
+    public func json() -> [String: Any] {
+        return ["lat": lat, "lng": lon]
     }
     
 }

@@ -28,7 +28,7 @@ public class TRPApiKeyController {
     
     public static func getKey(_ framework: TRPApiKeys, bundle: Bundle = Bundle.main) -> String? {
         guard let path = bundle.path(forResource: "Info", ofType: "plist") else {
-            print("[Error] : PATH NİL")
+            print("[Error] : Path nil")
             return nil
         }
         

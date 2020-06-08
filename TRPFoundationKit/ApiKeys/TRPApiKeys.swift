@@ -10,5 +10,6 @@ import Foundation
 public enum TRPApiKeys: String, CaseIterable {
     case trpApiKey = "TRPApiKey"
     case trpGooglePlace = "TRPGooglePlaceApi"
+    case trpUberClient = "TRPUberClientId"
     case mglMapboxAccessToken = "MGLMapboxAccessToken"
 }
