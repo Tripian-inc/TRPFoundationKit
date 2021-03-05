@@ -10,8 +10,8 @@ import Foundation
 
 @objc public class TRPLocation:NSObject {
     
-    public var lat:Double;
-    public var lon:Double;
+    public var lat: Double;
+    public var lon: Double;
     
     public init(lat:Double, lon:Double) {
         self.lat = lat;
