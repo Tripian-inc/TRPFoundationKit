@@ -229,7 +229,7 @@
 					New,
 				);
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "Evren Yaşar";
 				TargetAttributes = {
 					B20A042C226DFDDA001DA3F6 = {
@@ -250,6 +250,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B20A831421C2134A00DE82B3;
 			productRefGroup = B20A831F21C2134A00DE82B3 /* Products */;
