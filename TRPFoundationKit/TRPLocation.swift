@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objc public class TRPLocation:NSObject {
+@objc public class TRPLocation:NSObject, Codable {
     
     public var lat: Double;
     public var lon: Double;

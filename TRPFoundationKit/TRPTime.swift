@@ -12,7 +12,7 @@ import Foundation
 /// To convert string to Date/Time.
 /// Date is `yyyy-mm-dd`
 /// Time is `hh:mm`
-public struct TRPTime {
+public struct TRPTime: Codable {
     
     public var timeForServer: String {
         return "\(self.date)T\(self.time)Z"
