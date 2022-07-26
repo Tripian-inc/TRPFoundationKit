@@ -6,7 +6,7 @@
 //  Copyright © 2019 Evren Yaşar. All rights reserved.
 //
 
-import Foundation
+import UIKit
 extension UIViewController {
    
     public func hiddenBackButtonTitle() {
