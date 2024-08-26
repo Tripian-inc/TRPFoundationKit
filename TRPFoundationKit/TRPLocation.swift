@@ -18,6 +18,11 @@ import Foundation
         self.lon = lon;
     }
     
+    enum CodingKeys: String, CodingKey {
+        case lat
+        case lon = "lng"
+    }
+    
     public func prnt() -> Void {
         print("Lat \(lat) Lon: \(lon)")
     }

@@ -25,6 +25,7 @@ public struct TRPTime: Codable {
         if let timeZone = TimeZone(identifier: "UTC") {
             formatter.timeZone = timeZone
         }
+        formatter.locale = Locale(identifier: "en_US_POSIX")
         return  formatter.date(from: "\(date) \(time)")
     }
     
