@@ -5,9 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "TRPFoundationKit",
-    platforms: [
-        .iOS(.v11)
-    ],
     products: [
         .library(
             name: "TRPFoundationKit",

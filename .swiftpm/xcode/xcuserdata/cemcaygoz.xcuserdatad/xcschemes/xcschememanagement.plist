@@ -7,22 +7,20 @@
 		<key>TRPFoundationKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>38</integer>
+			<integer>0</integer>
 		</dict>
-		<key>TRPFoundationKitTests.xcscheme_^#shared#^_</key>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>TRPFoundationKit</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>39</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>UniversalTRPFoundationKit.xcscheme_^#shared#^_</key>
+		<key>TRPFoundationKitTests</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>40</integer>
-		</dict>
-		<key>XCTRPFoundation.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>41</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
